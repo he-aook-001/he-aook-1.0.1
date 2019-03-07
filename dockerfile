@@ -6,7 +6,7 @@ services:
     - "5000:5000"
     volumes:
     - .:/code
-    - logvolume01:/var/log
+    - logvolume01:/var/logs
     links:
     - redis
   redis:
