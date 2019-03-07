@@ -13,4 +13,3 @@ services:
     image: redis
 volumes:
   logvolume01: {}
-  
